@@ -1,28 +1,39 @@
-# Tatiana Dmitrieva-Blache
+# Tatiana Dmitrieva
  Junior iOS Developer / Front-End Web Developper
 
 ## Contacts 
-**Adress**: Gap, Provence-Alpes-Côte d’Azur, France
-#### **E-mail**: tatiana.blache@Gmail.com
-[**Githgub Link**](https://github.com/TDB-star)
+* **Adress**: Gap, Provence-Alpes-Côte d’Azur, France
+* #### **E-mail**: tatiana.blache@Gmail.com
+* [**Githgub Link**](https://github.com/* TDB-star)
 #### **Discord**: TDB-star
-###  **Info**
+# Summary
 Hello, I'm a Junior iOS Developer. Due to my previous experience, I have acquired an excellent breadth of knowledge in a variety of industries and fields. Passionate and self-motivated, seeking a challenging position where my technical, analytical, and problem-solving skills can be a value addition for the profitable growth of the organization and help me achieve personal goals.
 
 ### **EMPLOYMENT HISTORY**
 
+* ### Junior iOS Developer/ Freelancer
   > While looking for my first opportunity as a mobile developer, I implemented several mobile app prototypes using the following technologies:
-The first project is a mobile application of an online wears Shop. https://github.com/TDB-star/OnlineFashionStoreApp
+The first project is a mobile application of an online wears Shop. 
+ https://github.com/TDB-star/OnlineFashionStoreApp
 language 100% Swift
 
-### Skills: 
+* ### Insurance Manager, MMA Insurance 
+* ### Commercial Assistant, ESI International Ski School
+
+
+
+
+# Skills: 
 * Swift
 * XCode
 * UIKit, SwiftUI
 * Git
 * CocoaPods
 * Vapor 4
+* MVC, MVVM
 * Photoshop, Figma
+
+# Code Example
 
 ```
 Build a function that returns an array of integers from n to 1 where n>0.
@@ -51,10 +62,21 @@ func reverseSeq(n: Int) -> [Int] {
 You have passed all of the tests! :)
 
 ```
+# COURSES
+* iOS Mobile App Developer, Skillbox
+* UX\UI Designer, Skillbox
+# Education
 
-## Courses:
-#### iOS Mobile App Developer, Skillbox
-#### UX\UI Designer, Skillbox
+### Master in Finance and Banking, Tambov State Technical University
+
+# Langages
+* French (C1)
+* English (B2)
+* Russian native
+
+
+
+
 
 
 
