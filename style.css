@@ -35,7 +35,7 @@ button{cursor: pointer;}
 button::-moz-focus-inner{padding: 0;border: 0;}
 a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
-ul li{list-style: none;}
+ul li{list-style: none;} 
 img{vertical-align: top;} 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
@@ -81,6 +81,7 @@ h1 {
 	font: 300 16px Roboto, sans-serif;
 	padding: 20px 0 0 0;
 	color:#5f5e64;
+	line-height: normals;
 }
 .nav-item {
 	padding: 20px;
@@ -88,5 +89,20 @@ h1 {
 
 .main-block {
 padding: 20px 0 20px 0;
+}
+
+.contacts {
+	padding: 40px 0 20px 0;
+}
+
+h2 {
+	font: 500 32px Roboto, sans-serif;
+}
+
+.contacts-title {
+	padding: 20px;
+}
+.contact-item {
+	font: 300 18px Roboto, sans-serif;
 }
 
