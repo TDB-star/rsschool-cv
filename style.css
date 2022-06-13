@@ -67,7 +67,7 @@ img {
 }
 
 .title {
-	padding: 10px;
+	padding: 20px;
 }
 
 .content-job-position {
@@ -81,7 +81,7 @@ h1 {
 	font: 300 16px Roboto, sans-serif;
 	padding: 20px 0 0 0;
 	color:#5f5e64;
-	line-height: normals;
+	line-height: 1.5;
 }
 .nav-item {
 	padding: 20px;
@@ -104,5 +104,23 @@ h2 {
 }
 .contact-item {
 	font: 300 18px Roboto, sans-serif;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 40px 0 40px 0;
+}
+.code {
+	background-color:#f5f5f7;
+	padding: 30px;
+	border-radius: 20px;
+}
+.list-block {
+	padding: 20px 0px 20px 0;
+}
+
+.item {
+	font: 300 22px Roboto, sans-serif;
+	padding: 10px;
 }
 
