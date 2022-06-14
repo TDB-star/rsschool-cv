@@ -39,28 +39,37 @@ ul li{list-style: none;}
 img{vertical-align: top;} 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
-:root {
-	--content-width: 1170px;
-}
-
 body {
 	background-color: #e8e8e8;
 }
-.content {
-	padding: 120px 0 120px 0;
-	max-width: 1170px;
-	margin: 0px auto;
+.content-header {
+	margin: 0 0 100px 0;
+	background-color: #bf4800;
 }
-
 
 .nav-list {
 	display: flex;
 	justify-content: flex-end;
+	font: 400 16px Roboto, sans-serif;
 }
+
+.nav-item {
+	padding: 20px;
+}
+.nav-item a {
+	text-decoration: none;	
+	color: #ffffff;
+}
+
+.nav-item a:hover {	
+	color: #000000;
+}
+
+
 .profile-photo-container {
 	display: flex;
 }
-img {
+.profile-photo-image {
 	width: 200px;
 	height: 200px;
 	border-radius: 100px;
@@ -79,13 +88,11 @@ h1 {
 }
 .summary {
 	font: 300 16px Roboto, sans-serif;
-	padding: 20px 0 0 0;
+	padding: 20px 0 20px 0;
 	color:#5f5e64;
 	line-height: 1.5;
 }
-.nav-item {
-	padding: 20px;
-}
+
 
 .main-block {
 padding: 20px 0 20px 0;
@@ -108,13 +115,17 @@ h2 {
 .container {
 	display: flex;
 	flex-direction: column;
-	margin: 40px 0 40px 0;
+
+	padding: 20px 0 80px 0;
+	max-width: 1170px;
+	margin: 0px auto;
 }
 .code {
 	background-color:#f5f5f7;
 	padding: 30px;
 	border-radius: 20px;
 }
+
 .list-block {
 	padding: 20px 0px 20px 0;
 }
@@ -122,5 +133,83 @@ h2 {
 .item {
 	font: 300 22px Roboto, sans-serif;
 	padding: 10px;
+}
+.embaded-item {
+	font: 300 20px Roboto, sans-serif;
+	margin: 10px 0 10px 0;
+}
+.item-adress {
+	font: 300 22px Roboto, sans-serif;
+	padding: 10px;
+	background: url("./assets/Location.svg") left bottom/26px 26px no-repeat;
+	padding: 10px 0 0 30px;
+}
+
+.item-email {
+	font: 300 22px Roboto, sans-serif;
+	padding: 10px;
+	background: url("./assets/Mail.svg") left bottom/26px 26px no-repeat;
+	padding: 10px 0 0 30px;
+}
+
+.item-link {
+	font: 300 22px Roboto, sans-serif;
+	padding: 10px;
+	background: url("./assets/Link.svg") left bottom/26px 26px no-repeat;
+	padding: 10px 0 0 30px;
+}
+
+.empoyment-history-list li {
+	background: url("./assets/Ellipse.jpg") left /8px 8px no-repeat;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px 0;
+}
+
+.courses-list li {
+	background: url("./assets/Ellipse.jpg") left /6px 6px no-repeat;
+	padding: 0 0 0 20px;
+	margin: 0 0 8px 0;
+}
+.footer-block {
+	display: flex;
+	flex-direction: column;
+	background-color: #bf4800;
+	padding: 100px 0 10px 0;
+	text-align: center;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0 20px 0;
+}
+
+.footer-logos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0 0 100px 0;
+}
+
+rs-logo {
+	width: 135px;
+	height: 50px;
+}
+
+.github-logo {
+	width: 32px;
+	height: 32px;
+}
+.all-rights {
+	font: 300 14px Roboto, sans-serif;
+}
+.footer-logos a {
+	font: 300 12px Roboto, sans-serif;
+	text-decoration: none;
+	color: #000;
+}
+
+.footer-logos a:hover {
+	color: #fff;
 }
 
