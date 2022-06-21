@@ -84,7 +84,7 @@ legend {
 
 body {
     font-family: 'Red Hat Text', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
 }
 
@@ -114,17 +114,8 @@ body {
     margin-top: 0px;
 }
 
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .container-wide {
-    position:absolute;
+    position: absolute;
     top: 0px;
     width: 1440px;
     height: 90px;
@@ -136,6 +127,15 @@ body {
     box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
 }
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .header {
 
 }
@@ -143,7 +143,6 @@ body {
 .header-row {
 display: flex;
 align-items: center;
-justify-content: space-between;
 }
 
 .header-logo {
@@ -151,6 +150,7 @@ justify-content: space-between;
 }
 
 .header-nav {
+margin-left: 167px;
 font-weight: 500;
 color: #fff;
 
@@ -175,6 +175,7 @@ color: #fff;
     line-height: 41px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-left: auto;
     background-color: #0D606F;
     font-size: 16px;
     color: #fff;
@@ -189,3 +190,72 @@ transition: opacity 0.2s ease;
     opacity: 0.8;
     color: #fff;
 }
+
+.home-content {
+    position: absolute;
+    top: 172px;
+    width: 892px;
+    height: 422px;
+    font-family: 'Aleo', serif;
+    color: #fff;
+}
+
+h1 { 
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.home-text {
+margin-top: 58px;
+font-size: 20px;
+font-style: italic;
+font-weight: 700;
+}
+
+.home-form {
+    height: 95px;
+    margin-top: 46px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;   
+}
+
+.home-row {
+display: flex;
+align-items: center;
+}
+
+.home-input {
+  
+}
+
+
+
+.startPlanning-btn {
+    background-color: #0D606F;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.startPlanning-btn a.startPlanning-btn {
+    display: inline-block;
+    height: 59px;
+    line-height: 59px;
+    padding-left: 32.5px;
+    padding-right: 32.5px;
+    transition: opacity 0.2s ease;
+    }
+    
+.startPlanning-btn:hover, a.startPlanning-btn:hover {
+        opacity: 0.8;
+        color: #fff;
+    }
