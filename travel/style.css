@@ -16,6 +16,7 @@ a, a:visited {
 a:hover {
     color: inherit;
     text-decoration: none;
+    opacity: 0.8;
 }
 
 a:focus, 
@@ -263,6 +264,7 @@ input[type=text] {
 .startPlanning-btn:hover, a.startPlanning-btn:hover {
     opacity: 0.8;   
     }
+
 .steps {
     margin-top: 80px;
     margin-bottom: 97px;
@@ -376,7 +378,87 @@ figcaption {
 
 .btn-text {
    font-size: 24px;
-   color: #fff;
+   color: #fff; 
 }
 
+a.page-btn-group {
+    transition: opacity 0.2s ease;
+}
+
+.page-btn-group:hover, a.page-btn-group:hover {
+    opacity: 0.8;
+}
+
+.travel-stories-block {
+    position: relative;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+
+.stories-storie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 80px;
+    margin-bottom: 40px;
+
+    color: #0D606F;
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+
+}
+
+.storie {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.storie-description {
+    margin-left: 40px;
+}
+
+h3 {
+font-weight: 400;
+font-size: 35px;
+padding-bottom: 24px;
+}
+
+.read-more {
+    font-weight: 700;
+    text-decoration: underline;
+    transition: opacity 0.2s ease;
+}
+
+.footer-background-cover {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    object-fit: cover;
+}
+.footer {
+    margin-top: 62px;
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.social-network {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 318px;
+    width: 141px;
+}
+.footer-background {
+    position: absolute;
+    left: 0;
+    top: 173px;
+    bottom: 0px;
+    width: 100%;
+    z-index: -1;
+}
 
