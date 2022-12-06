@@ -1,1 +1,1 @@
-https://TDB-star.github.io/rsschool-cv/cv
+https://TDB-star.github.io/rsschool-cv/
