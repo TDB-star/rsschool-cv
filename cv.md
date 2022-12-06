@@ -6,7 +6,7 @@
 * #### **E-mail**: tatiana.blache@gmail.com
 * #### **Discord**: TDB-star
 # Summary
-Hello, I'm a Junior iOS Developer. Due to my previous experience, I have acquired an excellent breadth of knowledge in a variety of industries and fields. Passionate and self-motivated, seeking a challenging position where my technical, analytical, and problem-solving skills can be a value addition for the profitable growth of the organization and help me achieve personal goals.
+Hello, I'm an iOS Mobile Developer. Due to my previous experience, I have acquired an excellent breadth of knowledge in a variety of industries and fields. Passionate and self-motivated, seeking a challenging position where my technical, analytical, and problem-solving skills can be a value addition for the profitable growth of the organization and help me achieve personal goals.
 
 # **EMPLOYMENT HISTORY**
 * ### iOS Developer/ Freelancer
