@@ -35,3 +35,19 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body {
+    background-color: #e8e8e8;
+}
+
+.header {
+    margin: 0 0 100px 0;
+    background-color: #bf4800;
+    }
+    
+    .profile-avatar-image {
+        vertical-align: middle;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
