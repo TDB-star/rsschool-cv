@@ -56,11 +56,6 @@ p + p { margin-top: 1em;}
 body {
     background-color: #e8e8e8;
 }
-
-.header {
-    margin: 0 0 100px 0;
-    background-color: #bf4800;
-    }
     
 .profile-avatar-image {
 vertical-align: middle;
@@ -93,4 +88,39 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.header {
+    margin-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #bf4800;
+}
+
+.header-row {
+    display: flex;
+    justify-content: end;
+}
+
+.header-nav {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.header-nav ul {
+    display: flex;
+    
+}
+.header-nav li:not(:last-child) {
+    margin-right: 38px;
+}
+
+.header-nav a {
+    transition: color 0.2s ease; 
+}
+
+.header-nav a:hover {
+    color: #27413A;  
 }
