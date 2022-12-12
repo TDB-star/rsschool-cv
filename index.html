@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+	<title>CV</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-row">
+				<nav class="header-nav">
+					<ul>
+						<li><a href="#contacts">Contacts</a></li>
+						<li><a href="#summary">Summary</a></li>
+						<li><a href="#skills">Skills</a></li>
+                        <li><a href="#code">Code</a></li>
+						<li><a href="#education">Education</a></li>
+						<li><a href="#languages">Languages</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+    <main>
+        <section class="photo-name_block">
+        <div class="container">
+        <div class="photo-name_container">
+            <div class="photo-container">
+                <img class="profile-avatar-image" src="./Assets/IMG_4467.JPG" alt="Avatar">
+            </div>
+        <div class="name-container">
+            <p class="name">Tatiana</p>
+            <h1>DMITRIEVA</h1>
+            <p class="position">iOS / WEB DEVELOPER</p>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section class="content">
+            <div class="container">
+                <div class="content-container">
+                <div class="content-left_side">
+                    <div class="contacts">
+                        <h2 id="contacts">CONTACTS</h2>
+                        <ul class="list">
+                            <li class="icon adress">Gap, Provence-Alpes-Côte d’Azur, France</li>
+                            <li class="icon email">tatiana.blache@gmail.com</li>
+                            <li class="icon link"><a href="https://github.com/TDB-star">Github</a></li>
+                        </ul>
+                    </div>
+                    <div class="skills">
+                        <h2 id="skills">SKILLS</h2>
+                        <ul class="list">
+                            <li>Swift</li>
+                            <li>XCode</li>
+                            <li>UIKit, SwiftUI</li>
+                            <li>Git, Github</li>
+                            <li>CocoaPods</li>
+                            <li>MVC, MVVM, VIPER</li>
+                            <li>Wordpress</li>
+                            <li>Photoshop, Figma</li>
+                        </ul>
+                    </div>
+                    <div class="courses">
+                        <h2 id="courses">COURSES</h2>
+                        <ul class="list">
+                            <li>iOS Mobile App Developer, Swiftbook</li>
+                            <li>UX\UI Designer, Skillbox</li>
+                        </ul>
+                    </div>
+                    <div class="education">
+                        <h2 id="education">EDUCATION</h2>
+                        <ul class="list">
+                            <li>Tambov State Technical University</li>
+                        </ul>
+                    </div>
+                    <div class="languages">
+                        <h2 id="languages">LANGUAGES</h2>
+                        <ul class="list">
+                            <li>French (C1)</li>
+                            <li>English (B1)</li>
+                            <li>Russian (Native)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-right_side">
+                    <div class="summary">
+                        <h2 id="summary">SUMMARY</h2>
+                        <p class="p-summury">Hello, I’m an iOS Mobile Developer. Due to my previous experience, I have acquired an excellent breadth of knowledge in a variety of industries and fields. Passionate and self-motivated, seeking a challenging position where my technical, analytical, and problem-solving skills can be a value addition for the profitable growth of the organization and help me achieve personal goals.
+                        </p>
+                    </div>
+                    <div class="employment-history">
+                        <h2 id="mployment-history">EMPLOYMENT HISTORY</h2>
+                        <ul class="employment-history-list">
+                            <li>iOS Mobile Developer/ Freelancer - Mission for SIMS ESI - France</li>
+                            <li>Junior iOS Developer/ Freelancer</li>
+                            <li>Insurance Manager, MMA Insurance</li>
+                            <li>Commercial Assistant, ESI International Ski School</li>
+                        </ul>
+                    </div>
+                    <div class="code">
+                        <h2 id="code">CODE</h2><br>
+                        <pre class="code-example">Build a function that returns an array of 
+integers from n to 1 where n>0.
+
+                            
+Example : n=5 --> [5,4,3,2,1]
+                            
+func reverseSeq(n: Int) -> [Int] {
+var newArray = [Int]()
+var reversedArray = [Int]()
+                            
+for i in 1...n {
+newArray.append(i)
+reversedArray = newArray
+}
+                            
+reversedArray = newArray
+                            
+for j in 0...(newArray.count - 1)  {
+reversedArray[j] = newArray.last!
+newArray.removeLast()
+print(reversedArray)
+}
+                            
+return reversedArray
+}
+                            
+You have passed all of the tests! :)</pre>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+        <div class="footer-content">
+            <div><a href="https://github.com/TDB-star"><img class="github-logo" src="./Assets/github-icon.svg" alt="Ghithub-logo"></a></div>
+            <div><a href="https://rs.school/index.html"><img class="rs-logo" src="./Assets/rsschool-logo.svg" alt="RS_School-logo"></a></div>
+        </div>
+        <div class="all-rights">© Tatiana Dmitrieva 2022 All rights reserved</div> 
+        </div>               
+    </footer>
+</body>
+</html>
