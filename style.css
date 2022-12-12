@@ -66,7 +66,6 @@ vertical-align: middle;
 width: 220px;
 height: 220px;
 object-fit: cover;
-
 border-radius: 50%;
 border: 12px solid #bf4800;
 }
@@ -90,7 +89,7 @@ body {
 }
 
 .container {
-    width: 1230px;
+    max-width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -136,6 +135,7 @@ body {
 .photo-name_container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .name-container {
@@ -172,6 +172,7 @@ h1 {
 .content-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .content-left_side {
@@ -301,7 +302,8 @@ padding: 20px 0 20px 0;
 
 .footer-content {
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
+flex-wrap: wrap;
 padding: 100px 0 10px 0;
 align-items: center;
 }
